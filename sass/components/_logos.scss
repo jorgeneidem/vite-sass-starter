@@ -1,0 +1,16 @@
+.logo {
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo.vite:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.sass:hover {
+  filter: drop-shadow(0 0 2em #ef64ffaa);
+}
+
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #f7df1eaa);
+}
